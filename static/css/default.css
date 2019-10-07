@@ -1,0 +1,33 @@
+*{
+font-size:11pt;
+margin:0;
+padding:0;
+}
+
+ol{
+    margin:1em;
+}
+
+h1{
+background:#eed;
+font-size:100%;
+border-bottom:1px solid #bbb;
+padding:8px;
+height:40px;
+}
+
+body{
+margin:1em;
+background:none;
+}
+
+
+.footer{
+background:#eed;
+font-size:90%;
+text-align:center;
+padding:4px;
+margin-top:1em;
+border-top:1px solid #bbb;
+border-bottom:1px solid #bbb;
+}

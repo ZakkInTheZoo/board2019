@@ -1,0 +1,14 @@
+ul {
+}
+
+li {
+  background-color: #aaa;
+  display: inline-block;
+  width: 25%;
+  padding:0.4em;
+}
+#footer{
+  background: #eee;
+  text-align: center;
+  padding: 4px;
+}
