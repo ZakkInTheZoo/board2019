@@ -9,13 +9,12 @@ li {
 }
 
 .footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #f5f5f5;
   }
+
   body > .container {
   padding: 60px 15px 0;
   }
@@ -32,3 +31,14 @@ li {
 .container .text-muted {
 margin: 20px 0;
 }
+
+/** 選択されたアイテム */
+.checked_item
+{
+  /*background: #faa;*/
+}
+
+.checked_item_icon{
+border-image: url('http://127.0.0.1:9002/static/images/1486564411-checkmark_81522.png' );
+}
+

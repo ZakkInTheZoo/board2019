@@ -4,6 +4,6 @@
 {include file="navi.tpl"}
 
 {include file="message_form.tpl"}
-
+{include file="message_list.tpl" list=$list}
 
 {include file="footer.tpl"}

@@ -12,7 +12,7 @@
       <li class="nav-item">
         <a class="nav-link" href="#">リンク</a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown" style="width:300px;">
         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           メニュー
         </a>
