@@ -23,8 +23,6 @@ try{
     exit('データベース接続失敗。'.$e->getMessage());
 }
 
-// echo  join( $dbh->errorInfo(), ":");
-// print_r( $res );
 $bookmark_list=[1,4,5];
 
 //--------------

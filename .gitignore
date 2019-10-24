@@ -1,0 +1,5 @@
+doc/
+*.url
+*.bat
+/nbproject/private/
+templates_c/

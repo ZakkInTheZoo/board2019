@@ -37,12 +37,18 @@
 
 ## Git
 
+URL
+    https://github.com/ZakkInTheZoo/board2019
+    git@github.com:ZakkInTheZoo/board2019.git
+
 \.git\infoで指定する。 .gitignoreを除外している
 
 ```
 .gitignore
 HEAD
 ```
+
+git log (vscode)Git History拡張機能で見やすくなります
 
 ## ビルドインサーバー実行
 
@@ -60,7 +66,7 @@ php -S 127.0.0.1:9002
 2019-10-10 主キー文字列の場合：Has-Many-Thrughがサポートできない＊調査
 
 2019-10-10 JSONレスポンス
-2019-10-24 git関連整備、
+2019-10-24 git関連整備
 
 
 
