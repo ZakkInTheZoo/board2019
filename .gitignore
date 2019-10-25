@@ -1,4 +1,5 @@
+*.url
+*.bat
 /nbproject/private/
 /nbproject/*
 templates_c/
-

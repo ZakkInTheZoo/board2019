@@ -1,7 +1,7 @@
 <?php
 
 $db=[
-    'driver'    => 'pgsql',
+    'driver'    => 'pgsql',//pgsql|mysql
     'host'      => 'localhost',
     'database'  => 'testdb1',
     'username'  => 'postgres',
