@@ -21,11 +21,10 @@ Total Message:{$total_cnt} /Approved Status:{$total_cnt_st1}件, bookmark:{$book
 <td class="check_row"  id="check_item__{$list[idx].id}" class=""></td>
 <td>{$list[idx].id}</td>
 <td>{$list[idx].title|escape:"html"}  </td>
-<td>{assign var=target value={in_list list=$bookmark_list key=$list[idx].id type='integer' label_true=true label_false=false} } 
-{if $target==true } <img style="width:14px;" src='static/images/checkmark-outline_icon-icons.com_73300.png'/> {/if}</td>
+<td></td>
 <td>{$list[idx].user_id}</td>
-<td>{str_nl2br str=$list[idx].message|escape:"html"}</td>
-<td>{$list[idx].status|my_marker:'red'}</td>
+<td>{$list[idx].message|escape:"html"}</td>
+<td>{$list[idx].status}</td>
 <td>{$list[idx].created_at}</td>
 </tr>
 {/section}

@@ -1,5 +1,5 @@
 <?php
-require '../smarty-3.1.33/libs/Smarty.class.php';
+require '/Users/fid/work/devel/smarty-3.1.33/libs/Smarty.class.php';
 //require_once 'configs/database.php';//現在非使用
 
 require_once 'configs/smarty_settings.php';

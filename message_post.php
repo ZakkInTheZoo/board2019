@@ -1,7 +1,6 @@
 <?php
 
-require_once 'configs/smarty_settings.php';
-require_once 'configs/db_connector.class.php';
+require_once 'configs/app_settings.php';
 
 $message = "";
 $result_flag = false;
@@ -39,8 +38,15 @@ try {
         date("Y-m-d H:i:s")
     ];
 
+    $stmt->bindValue(':title', $param['title'], PDO::PARAM_STR);
+    $stmt->bindValue(':message', $param['message'], PDO::PARAM_STR);
+    $stmt->bindValue(':user', 'admin2', PDO::PARAM_STR);
+    $stmt->bindValue(':status', 0, PDO::PARAM_INT);
+    $stmt->bindValue(':created_at', date("Y-m-d H:i:s"), PDO::PARAM_STR);
+
     // 正常時は1が返る    
-    $flag = $stmt->execute($row_data);
+    //$flag = $stmt->execute($row_data);//postgre9
+    $flag = $stmt->execute();//mysql with-prepared-bindValue
 
     //DbConnector::getConnect()->errorCode()
     //DbConnector::getConnect()->errorMessage()
